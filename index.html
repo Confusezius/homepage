@@ -1,29 +1,95 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <title>About Karsten Roth</title>
-    
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-    
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    
+
     <!-- FontAwesome JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
-       
-    <!-- Theme CSS -->  
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-3.css">
 
+    <style type="text/css">
+      body
+    	{
+    		width:1400px;
+    		text-align: center;
+    		font-weight: 350;
+    		font-size:16px;
+    		background-color: #BBB;
+    	}
+      table
+    	{
+    		padding: 5px;
+    	}
 
-</head> 
+      table.pub_table,td.pub_td1,td.pub_td2
+    	{
+    		border-collapse: collapse;
+    		border-bottom: 0px solid #9B9B9B;
+    		padding-bottom: 10px;
+    		padding-top: 10px;
+    		padding-left: 10px;
+    		width: 950px;
+    	}
+    	td.pub_td1
+    	{
+    		width:100px;
+    	}
+    	td.pub_td2
+    	{
+    	}
+    	td.year_heading
+    	{
+    		color: #3B3B3B;
+    		font-weight: 700;
+    		font-size:20px;
+    	}
+    	tr {
+    		background-color: #FFF;
+    	}
+      p.caption
+    	{
+    		color: #9B9B9B;
+    		text-align: left;
+    		width: 600px;
+    		font:11px helvetica,sans-serif;
+    	}
+      p.caption2
+    	{
+    		color: #9B9B9B;
+    		text-align: left;
+    		width: 800px;
+    		font:11px helvetica,sans-serif;
+    	}
+      div.teaser_img_div {
+    		width: 286px;
+    	}
+      img.teaser_img {
+    		width: 256px;
+    		display: block;
+        margin-left: auto;
+        margin-right: auto;
+    		margin-top: 5px;
+    		margin-bottom: 5px;
+    		border: 0px solid black
+    	}
+    </style>
 
-<body>	
+</head>
+
+<body>
 
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
@@ -40,29 +106,37 @@
 					    </div><!--//primary-info-->
 					    <div class="secondary-info ml-md-auto mt-2">
 						    <ul class="resume-social list-unstyled">
-				                <li class="mb-3"><a href="https://www.linkedin.com/in/karsten-roth"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>LinkedIn @ Karsten Roth</a></li>
-				                <li class="mb-3"><a href="https://www.github.com/Confusezius"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>Github @ Confusezius</a></li>
+				                <li class="mb-3"><a href="https://www.linkedin.com/in/karsten-roth"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span><b>LinkedIn @ Karsten Roth</b></a></li>
+				                <li class="mb-3"><a href="https://www.github.com/Confusezius"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span><b>Github @ Confusezius</b></a></li>
+				                <li class="mb-3"><a href="https://scholar.google.com/citations?user=93ZjIs0AAAAJ&hl"><span class="fa-container text-center mr-2"><i class="fab fa-google fa-fw"></i></span><b>Google Scholar</b></a></li>
 						    </ul>
 					    </div><!--//secondary-info-->
-					    
+
 				    </div><!--//media-body-->
 			    </div><!--//media-->
 		    </header>
 		    <div class="resume-body p-5">
 			    <div class="row">
 				    <div class="col-lg-12">
+              <section class="resume-section summary-section mb-5">
+    				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">tl;dr -  About me</h2>
+                    <font color="green"><b>Research Intern at MILA</b>
+                      <p></font> <font color="black">Under supervision of Joseph Paul Cohen and Yoshua Bengio. I'm researching Unsupervised Representation Learning for medical 3D data.</font></p>
+                    <font color="green"><b>Master Student Physics at the HCI</b>
+                      <p></font> <font color="black">Under supervision of Biagio Brattoli, Timo Milbich, Patrick Esser and Björn Ommer. I'm working on Deep Metric Learning and Visual Representation Learning.</font></p>
+    			    </section><!--//summary-section-->
 					    <section class="resume-section summary-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">News</h2>
 						    <div class="resume-section-content" style="overflow:auto; height:350px;">
 							    <ul>
 								    <li><font color="green"><b>Oct. 2019</b>
-									    <p></font> <font color="black">One paper submitted to <i>TPAMI</i> on Improved Generalization for Deep Metric Learning.</font></p></li>								  
+									    <p></font> <font color="black">One paper submitted to <i>TPAMI</i> on Improved Generalization for Deep Metric Learning.</font></p></li>
 								    <li><font color="green"><b>Oct. 2019</b>
-									    <p></font> <font color="black">One paper accepted to the <i>Med-Neurips Workshop Track</i> at Neurips 2019 on error mining for medical semantic segmentation. <em> Links coming soon</em></font></p></li>								  						    
+									    <p></font> <font color="black">One paper accepted to the <i>Med-Neurips Workshop Track</i> at Neurips 2019 on error mining for medical semantic segmentation. <em> Links coming soon</em></font></p></li>
 								    <li><font color="green"><b>Sept. 2019</b>
-									<p></font> <font color="black">Started a six month research internship at the <i>Montreal Institute for Learning Algorithms</i> under supervision of Joseph Paul Cohen and Yoshua Bengio</font></p></li>								    								    								    
+									<p></font> <font color="black">Started a six month research internship at the <i>Montreal Institute for Learning Algorithms</i> under supervision of Joseph Paul Cohen and Yoshua Bengio</font></p></li>
 								    <li><font color="green"><b>Sept. 2019</b>
-									<p></font> <font color="black">One paper submitted to <i>Numerical Methods in Biomedical Engineering</i>  on domain methods for needle insertion simulations.</i></font></p></li>								    								    
+									<p></font> <font color="black">One paper submitted to <i>Numerical Methods in Biomedical Engineering</i>  on domain methods for needle insertion simulations.</i></font></p></li>
 								    <li><font color="green"><b>July 2019</b>
 									    <p></font> <font color="black">One paper accepted to <i>ICCV 2019</i> on Deep Metric Learning with Interclass Properties. <i>Arxiv: <a href="https://arxiv.org/abs/1909.11574">Link</a></i>, <i>Github: <a href="https://github.com/Confusezius/metric-learning-mining-interclass-characteristics">Link</a></i></font></p></li>
 								    <li><font color="green"><b>May 2019</b>
@@ -71,53 +145,124 @@
 									    <p></font> <font color="black">One paper submitted to <i>MICCAI 2019</i> on Image Segmentation. (not accepted)</font></p></li>
 								    <li><font color="green"><b>March 2019</b>
 									    <p></font> <font color="black">One paper submitted to <i>ICCV 2019</i> on Deep Metric Learning.</font></p></li>
-							    </ul>					    
+							    </ul>
 						    </div>
-					    </section><!--//summary-section-->		
+					    </section><!--//summary-section-->
 				    </div>
 				    <div class="col-lg-12">
 					    <section class="resume-section summary-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Publications</h2>
 						    <div class="resume-section-content">
-							    <p>For a full publication list, please refer to my <a href="https://scholar.google.com/citations?user=93ZjIs0AAAAJ&hl">Google Scholar profile</a>.</p>					    
+                  <table class="pub_table"><tbody>
+
+                  <tr>
+                      <td class="pub_td1">
+                          <div class="teaser_img_div">
+                              <a href=""><img class="teaser_img" src="assets/images/medneurips_thumb.png"></a>
+                          </div>
+                      </td>
+              	    	<td class="pub_td2">
+                          <b>Boosting Liver and Lesion Segmentation from CT Scans By Mask Mining</b>
+                          <br>
+                          Karsten Roth, Tomasz Konopzcyinski, Jürgen Hesser
+                          <br>
+                          <b>NeurIPS-W 2019.</b>
+                          <br>
+                          [<a href="#">Paper TBA</a>]
+                      </td>
+                  </tr>
+
+
+                  <!---->
+                  <tr>
+                      <td class="pub_td1">
+                          <div class="teaser_img_div">
+                              <a href="https://confusezius.github.io/metric-learning-mining-interclass-characteristics/"><img class="teaser_img" src="assets/images/iccv2019_thumb.jpg"></a>
+                          </div>
+                      </td>
+              	    	<td class="pub_td2">
+                          <b>MIC: Mining Interclass Characteristics for Improved Metric Learning</b>
+                          <br>
+                          Karsten Roth, Biagio Brattoli, Björn Ommer
+                          <br>
+                          <b>ICCV 2019.</b>
+                          <br>
+                          [<a href="#">Paper</a>] [<a href="https://confusezius.github.io/metric-learning-mining-interclass-characteristics/" target="_blank">Website</a>] [<a href="https://github.com/Confusezius/metric-learning-mining-interclass-characteristics/tree/gh-pages" target="_blank">Code</a>] [<a href="https://www.youtube.com/watch?v=XqBblEngeRY&list=PLPXplX5Y1SzGOxo22bqZjV1V-_LgcmLnT&index=3&t=0s" target="_blank">Poster</a>]
+                      </td>
+                  </tr>
+
+
+
+                  <!---->
+                  <tr>
+                      <td class="pub_td1">
+                          <div class="teaser_img_div">
+                              <a href="https://arxiv.org/abs/1901.04056"><img class="teaser_img" src="assets/images/lits_thumb.png"></a>
+                          </div>
+                      </td>
+              	    	<td class="pub_td2">
+                          <b>The Liver Tumor Segmentation Benchmark (LiTS)</b>
+                          <br>
+                          Patrick Bilic, ..., Karsten Roth, ..., Bjoern H Menze
+                          <br>
+                          <b>Challenge ISBI/MICCAI 2017.</b>
+                          <br>
+                          [<a href="https://arxiv.org/abs/1901.04056">Paper</a>]
+                      </td>
+                  </tr>
+
+
+                  <!---->
+                  <tr>
+                      <td class="pub_td1">
+                          <div class="teaser_img_div">
+                              <a href="https://arxiv.org/abs/1409.1696"><img class="teaser_img" src="assets/images/physics_thumb.png"></a>
+                          </div>
+                      </td>
+              	    	<td class="pub_td2">
+                          <b>Efficient preparation and detection of microwave dressed-state qubits and qutrits with trapped ions</b>
+                          <br>
+                          Joe Randall, ..., Karsten Roth, Winfried Hensinger
+                          <br>
+                          <b>Physics Annual Review 2014.</b>
+                          <br>
+                          [<a href="https://arxiv.org/pdf/1409.1696.pdf">Paper</a>]
+                      </td>
+                  </tr>
+
+                  </tbody></table>
 						    </div>
-					    </section><!--//summary-section-->		
-				    </div>				    
-			    </div>		    
-			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">About</h2>
-				    <div class="resume-section-content">
-					    <p class="mb-0">Next to my studies, I have started a research intern position at <em>MILA</em> under supervision of Joseph Paul Cohen and Yoshua Bengio on Unsupervised Representation Learning for 3D Medical Data.</p> 					    
-					    <p class="mb-0">Primarily though, I am currently pursuing my Master’s Degree in Physics at Heidelberg University, with focus on <em>Computer Vision and Machine Learning.</em></p>					    	    
-					    <p class="mb-0">My Master Thesis at the <em>Computer Vision group of Prof. Bjoern Ommer</em> (HCI) revolves around <em>Deep Metric Learning and Visual Representation Learning.</em>. </p>
-					    <p class="mb-0">I have previously occupied research assistant positions at two institutions: (1) the Heidelberg Center for Infectious Diseases, building a cell-tracking and -colocalization pipeline to evaluate cell movie data, 
-							   and (2), the experimental radiooncology group, where my focus was on 2D and 3D Segmentation from CT data.</p>
+
+
+
+
+					    </section><!--//summary-section-->
 				    </div>
-			    </section><!--//summary-section-->		
+			    </div>
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Public Projects</h2>
 				    <div class="resume-section-content">
 					    <ul>
-						    <li><b>Deep Metric Learning Baselines:</b> 
-							<p>PyTorch implementations for reference deep metric learning methods with standard/state-of-the art loss variants (e.g. Margin, ProxyNCA, N-Pair) and 
+						    <li><b>Deep Metric Learning Baselines:</b>
+							<p>PyTorch implementations for reference deep metric learning methods with standard/state-of-the art loss variants (e.g. Margin, ProxyNCA, N-Pair) and
 							   sampling options (semihard, distance). See <a href="https://github.com/Confusezius/Deep_Metric_Learning_Baselines">this Deep Metric Learning Github Repo</a>.</p></li>
-						    <li><b>2D Liver Lesion Segmentation:</b> 
-							<p>Implementations of various state-of-the-art 2D U-Net variants, using different network backends (e.g. dense, residual) and extensions 
+						    <li><b>2D Liver Lesion Segmentation:</b>
+							<p>Implementations of various state-of-the-art 2D U-Net variants, using different network backends (e.g. dense, residual) and extensions
 						           to architecture (e.g. squeeze-and-excitation, pyramid-pool) and training (e.g. auxiliary inputs). See <a href="https://github.com/Confusezius/unet-lits-2d-pipeline">this LiTS Lesion Segmentation Github Repo</a>.</p></li>
-						    <li><b>Smaller Projects:</b> 
+						    <li><b>Smaller Projects:</b>
 							<p>Implementations of a web crawler for car images, car masking network for the Carvana Image Masking Challenge and a simulated self-driving car. See the <a href="https://github.com/Confusezius/platesmania_crawler">Crawler Repo</a>,
 					     		   <a href="https://github.com/Confusezius/Carvana_Image_Masking_Challenge">Masking Repo</a> and the <a href="https://github.com/Confusezius/Simulated_SelfDriving_Car">Self-Driver Repo</a>.</p></li>
 
-					    </ul>				    
+					    </ul>
 				    </div>
-			    </section><!--//summary-section-->				    
+			    </section><!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
-								    <article class="resume-timeline-item position-relative pb-5">									    
+								    <article class="resume-timeline-item position-relative pb-5">
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Computer Vision Student Researcher and Master Student</h3>
@@ -143,9 +288,9 @@
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-								    
+
 								    <article class="resume-timeline-item position-relative pb-5">
-									    
+
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Cell Tracking Student Researcher</h3>
@@ -159,7 +304,7 @@
 										    <ul>
 											    <li>Created a full graphical pipeline for cell tracking and stress oscillation measurement.</li>
 											    <li>Wrote a program for automatic evaluation of gel electrophoresis progression.</li>
-										    </ul>										    
+										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
@@ -171,9 +316,9 @@
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-								    
+
 								    <article class="resume-timeline-item position-relative pb-5">
-									    
+
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Medical Image Analysis Student Researcher</h3>
@@ -182,7 +327,7 @@
 										    <div class="resume-position-time">2017/09 - 2019/04</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Student Researcher at the Experimental Oncology Group at the University Hospital Heidelberg.  
+										    <p>Student Researcher at the Experimental Oncology Group at the University Hospital Heidelberg.
 										       Worked on Medical Image Analysis, specifically Semantic Segmentation of Liver and Liver Lesions in CT data.</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Notable:</h4>
 										    <ul>
@@ -190,7 +335,7 @@
 											    <li>Created a repository for 2D Segmentation of Liver Lesions using modern U-Net variants.</li>
 											    <li>Co-author LiTS study</li>
 											    <li>ISBI Submission 2017 on Lesion Segmentation using Tiramisu and Tversky-Loss</li>
-										    </ul>										    
+										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PyTorch</span></li>
@@ -199,14 +344,14 @@
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Lasagne</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Theano</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>											    
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-								    
+
 								    <article class="resume-timeline-item position-relative pb-5">
-									    
+
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Research Intern</h3>
@@ -215,13 +360,13 @@
 										    <div class="resume-position-time">2018/02 - 2018/05</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Research Intern at the Computer Vision Group of Prof. Björn Ommer at the Heidelberg Collaboratory for Image Processing.  
+										    <p>Research Intern at the Computer Vision Group of Prof. Björn Ommer at the Heidelberg Collaboratory for Image Processing.
 										       Research on improving self-supervision methods (Jigsaw, DeepCluster) using Reinforcement Learning.</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Notable:</h4>
 										    <ul>
 											    <li>Implementations for Jigsaw-Puzzle Solving and Deep Clustering for Self-Supervised Learning.</li>
 											    <li>Implemented a Q-Learned Jigsaw-Puzzle Extension Task (Unsuccessful).</li>
-										    </ul>										    
+										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PyTorch</span></li>
@@ -234,7 +379,7 @@
 
 
 								    <article class="resume-timeline-item position-relative pb-5">
-									    
+
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Intern</h3>
@@ -247,7 +392,7 @@
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Notable:</h4>
 										    <ul>
 											    <li>Co-author on a Physics Annual Review Paper on the preparation and detection of qubits/qutrits through trapped ions.</li>
-										    </ul>										    
+										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">C++</span></li>
@@ -256,15 +401,15 @@
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-						    
-								    
+
+
 							    </div><!--//resume-timeline-->
-							    
-							    
-							    
-							    
-							    
-							    
+
+
+
+
+
+
 						    </div>
 					    </section><!--//experience-section-->
 				    </div>
@@ -287,10 +432,10 @@
 								        <div class="resume-degree font-weight-bold">Abitur</div>
 								        <div class="resume-degree-org">Gymnasium Walldorf</div>
 								        <div class="resume-degree-time">2005/09 - 2013/07</div>
-								    </li>								    
+								    </li>
 							    </ul>
 						    </div>
-					    </section><!--//education-section-->					    
+					    </section><!--//education-section-->
 					    <section class="resume-section skills-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
 						    <div class="resume-section-content">
@@ -314,24 +459,24 @@
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
-								        </li>										
+								        </li>
 								        <li class="mb-2">
 								            <div class="resume-skill-name">R</div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
-								        
+
 								        <li class="mb-2">
 								            <div class="resume-skill-name">Matlab</div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 62%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
-								        </li>								
+								        </li>
 							        </ul>
 						        </div><!--//resume-skill-item-->
-				
-						        
+
+
 						        <div class="resume-skill-item">
 						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
 						            <ul class="list-inline">
@@ -368,7 +513,7 @@
 								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">German</span> <small class="text-muted font-weight-normal">(Native)</small></li>
 								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
 								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Chinese</span> <small class="text-muted font-weight-normal">(Conversational)</small></li>
-								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">French</span> <small class="text-muted font-weight-normal">(Basic)</small></li>								    
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">French</span> <small class="text-muted font-weight-normal">(Basic)</small></li>
 							    </ul>
 						    </div>
 					    </section><!--//language-section-->
@@ -379,27 +524,26 @@
 								    <li class="mb-1">Climbing</li>
 								    <li class="mb-1">Muay Thai</li>
 								    <li class="mb-1">Football</li>
-								    <li class="mb-1">Cooking</li>								    
+								    <li class="mb-1">Cooking</li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
-					    
+
 				    </div>
 			    </div><!--//row-->
 		    </div><!--//resume-body-->
-		    
-		    
-	    </div>
-    </article>  
 
-    
+
+	    </div>
+    </article>
+
+
     <footer class="footer text-center pt-2 pb-5">
 	     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
     </footer>
 
-    
+
 
 </body>
-</html> 
-
+</html>
