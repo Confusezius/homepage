@@ -585,7 +585,7 @@ img.prof_mini_img {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgba(10, 10, 10, 0.8);
+  --bg-color: rgba(35,35,40,1);
   --text-color: #fff;
   --blog-gray-color: rgb(180, 180, 180);
   --background-image: linear-gradient(
