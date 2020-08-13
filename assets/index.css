@@ -324,7 +324,7 @@ img.prof_mini_img {
 
 
 
-@media (max-width: 959px) {
+@media (max-width: 800px) {
   #profile {
     width: 100vw;
     padding: 4vh 0vw;
@@ -430,7 +430,7 @@ img.prof_mini_img {
   border: 1px solid white
 }
 
-@media (max-width: 959px) {
+@media (max-width: 800px) {
   :root {
     --background-image: linear-gradient(
         0deg,
