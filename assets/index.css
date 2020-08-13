@@ -237,6 +237,10 @@ img.prof_mini_img {
   text-decoration: none;
 }
 
+.app_arrow {
+  display: none;
+}
+
 .projects section {
   width: 100%;
   padding: 2.5vh 5%;
@@ -359,6 +363,10 @@ img.prof_mini_img {
 
   .projects a {
     width: 100%;
+  }
+
+  .app_arrow {
+    display: block;
   }
 
   .projects section {
