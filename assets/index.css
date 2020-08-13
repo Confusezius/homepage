@@ -336,7 +336,7 @@ img.prof_mini_img {
 
 .projects a {
   /* 30px is the gutter size in magic grid */
-  width: calc(49% - 70px);
+  width: calc(80% - 70px);
   /* 49% avoids a weird single column on some wide screens */
   display: flex;
   text-decoration: none;
