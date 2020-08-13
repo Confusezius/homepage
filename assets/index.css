@@ -324,7 +324,7 @@ img.prof_mini_img {
   #profile {
     width: 100vw;
     padding: 4vh 0vw;
-    height: 40vh;
+    height: 50vh;
     text-align: center;
     position: relative;
   }
@@ -345,7 +345,7 @@ img.prof_mini_img {
     min-height: 120px;
     max-width: 120px;
     max-height: 120px;
-    margin: 0px auto !important;
+    margin-top: 20px
   }
 
   #work {
