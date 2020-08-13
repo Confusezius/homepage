@@ -345,7 +345,7 @@ img.prof_mini_img {
 .projects section {
   width: 100%;
   padding: 2.5vh 5%;
-  margin: 0vh 0px;
+  margin: 1vh 0px;
   display: inline-block;
   border-radius: 5px;
   color: var(--text-color);
@@ -506,7 +506,7 @@ img.prof_mini_img {
   }
 
   .projects a {
-    width: 90%;
+    width: 100%;
   }
 
   .projects section {
