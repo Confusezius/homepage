@@ -1,0 +1,144 @@
+
+// <div id="display" data-toggle="collapse" data-target="#news_div" onclick="$('#logo_news').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:var(--bg-color); display:block; height:50px; border-top:1px solid black; margin-bottom:40px">
+// <h1 id="updates" style='font-size:30px'><font color="black"><i id="logo_news" class="fas fa-angle-up"></i>&nbsp News</font></h1>
+// </div>
+// <div id="news_div" class="collapse in">
+//   <div id="display" style="background: rgba(240,240,240, 1); display:block; overflow:auto; height:300px; border:1px solid black">
+//   <div style="margin-left:-1%; font-size:15px'">
+//   <ul class="fa-ul">
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color: black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; Culmination of a five year
+//     <i><a href="https://www.science.org/doi/full/10.1126/sciadv.abk2022?af=R"><font color='orange'>
+//     interdisciplinary research project</font></a></i> on stress response in Hep-V cells accepted at Science Advances.</font></li></br>
+//
+//     <li><i class="fas fa-comments" style="font-size:14px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; Invited talk at G-Research on <i>Visual Similarity Learning</i>.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2203.12609"><font color='orange'>paper</font></a></i> on <i>Improving the Fairness of Chest X-ray Classifiers</i> accepted to CHIL 2022.</font></li></br>
+//
+//     <li><i class="fas fa-tower-broadcast" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; Two papers submitted to CVPR workshop on <i>Learning with Limited Labels</i> 2022.</font></li></br>
+//
+//     <li><i class="fas fa-tower-broadcast" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to ECCV 2022.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08547"><font color='orange'>Paper</font></a></i> on <i>Is Fairness Only Metric Deep? Evaluating and Addressing Subgroup Gaps in Deep Metric Learning</i> accepted at ICLR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="red">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08543"><font color='orange'>Paper</font></a></i> on <i>Integrating Language Guidance for Vision-based Deep Metric Learning</i> accepted as <b><font color="red">oral</font></b> at CVPR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2106.08265"><font color='orange'>Paper</font></a></i> on <i>Towards Total Recall in Industrial Anomaly Detection</i> accepted at CVPR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08547"><font color='orange'>Paper</font></a></i> on <i>Non-isotropy Regularization for Deep Metric Learning</i> accepted at CVPR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-trophy" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2022</b></font> <font color="black">&nbsp;&nbsp; Three first-author papers accepted at CVPR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-comments" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Jan 2022</b></font> <font color="black">&nbsp;&nbsp; Invited talk at Ruhr University Bochum on <i>Out-of-Distribution Generalization</i>.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Nov 2021</b></font> <font color="black">&nbsp;&nbsp; Four papers submitted to CVPR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-comments" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Oct 2021</b></font> <font color="black">&nbsp;&nbsp; Invited talk at Bright Machines on <i>Industrial Anomaly Detection</i>.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Oct 2021</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to ICLR 2022.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Oct 2021</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2107.09562v1"><font color='orange'>paper</font></a></i> accepted at NeurIPS 2021 on out-of-distribution Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-comments" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Oct 2021</b></font> <font color="black">&nbsp;&nbsp; Invited talk at the AIMI Lab @ Stanford University on <i>Revisiting the Status Quo in Deep Metric Learning</i>.</font></li></br>
+//
+//     <li><i class="fas fa-tower-broadcast" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Jun 2021</b></font> <font color="black">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2106.08265v1"><font color='orange'>Preprint</font></a></i> out on Industrial Anomaly Detection with <i>Amazon AWS</i>.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>May 2021</b></font> <font color="black">&nbsp;&nbsp; Two papers submitted to <i>NeurIPS 2021</i>.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>May 2021</b></font> <font color="black">&nbsp;&nbsp; One  <i><a href="https://arxiv.org/abs/2009.08348"><font color='orange'>paper</font></a></i> accepted to ICML 2021 on Self-Distillation for Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-star" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>May 2021</b></font> <font color="black">&nbsp;&nbsp; Started my PhD as part of ELLIS and the IMPRS-IS co-supervised by Zeynep Akata (University of Tuebingen) and Oriol Vinyals (Deepmind).</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2021</b></font> <font color="black">&nbsp;&nbsp; Two papers submitted to <i>ICCV 2021</i>.</font></li></br>
+//
+//     <li><i class="fas fa-check" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2021</b></font> <font color="black">&nbsp;&nbsp; Completed a successful 5 month research internship at AWS Research Lablet Amazon in Tuebingen.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Dec 2020</b></font> <font color="black">&nbsp;&nbsp; Two accepted workshop submissions at NeurIPS 2020 on continual few-shot learning for multilabel medical applications and uniform priors for Meta-learning.</font></li></br>
+//
+//     <li><i class="fas fa-star" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Mar 2021</b></font> <font color="black">&nbsp;&nbsp; Started a 5 month research internship at the AWS Research Lablet Amazon in Tuebingen supervised by Peter Gehler and Thomas Brox.</font></li></br>
+//
+//     <li><i class="fas fa-tower-broadcast" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Sep. 2021</b></font> <font color="black">&nbsp;&nbsp; New <i><a href="https://arxiv.org/abs/2009.08348"><font color='orange'>preprint</font></a></i> on Knowledge Distillation in Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Jul 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/2004.05582.pdf"><font color='orange'>paper</font></a></i> accepted to TPAMI on Improved Generalization in Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Jul 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/2004.13458.pdf"><font color='orange'>paper</font></a></i> accepted to ECCV 2020 on Multi-Feature Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Jun 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.3377"><font color='orange'>paper</font></a></i> accepted to International Journal for Numerical Methods in Biomedical Engineering on diffuse domain method for needle insertion simulations.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Jun 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2002.08473"><font color='orange'>paper</font></a></i> accepted to ICML 2020 on comparability and generalization in Deep Metric Learning.</font></br></br>
+//
+//     <li><i class="fas fa-star" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>May 2020</b></font> <font color="black">&nbsp;&nbsp; Started a four month research internship at the Vector Institute under supervision of Marzyeh Ghassemi.</font></li></br>
+//
+//     <li><i class="fas fa-star" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Apr 2020</b></font> <font color="black">&nbsp;&nbsp; Selected as participant to <font color="black"><b>attend</b></font> the MLSS 2020 in Tuebingen (<i>p < 180/1300</i>)</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2020</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>ECCV 2020</i> on Multi-Feature Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Feb 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2003.11113"><font color='orange'>paper</font></a></i> accepted to CVPR 2020 on Deep Metric Learning and Reinforcement Learning.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Feb 2020</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>ICML 2020</i> examining driving factors for generalization in Deep Metric Learning. </font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Jan 2020</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/1908.05062.pdf"><font color='orange'>paper</font></a></i> accepted to ISBI 2020 on Mask Mining for Liver Lesion Segmentation.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Nov 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>CVPR 2020</i> on Adaptive Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Oct 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>TPAMI</i> on Improved Generalization for Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Oct 2019</b></font> <font color="black">&nbsp;&nbsp; One <em><a href="https://arxiv.org/pdf/1908.05062.pdf"><font color='orange'>paper</font></a></em> accepted to the NeurIPS 2019 Med-Neurips Workshop Track on error mining for medical semantic segmentation.</font></li></br>
+//
+//     <li><i class="fas fa-star" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Sep 2019</b></font> <font color="black">&nbsp;&nbsp; Started a six month research internship at the Montreal Institute for Learning Algorithms (MILA) under supervision of Joseph Paul Cohen and Yoshua Bengio</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Sep 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>Numerical Methods in Biomedical Engineering</i>  on domain methods for needle insertion simulations.</i></font></li></br>
+//
+//     <li><i class="fas fa-thumbs-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#01AD0E">
+//     <b>Jul 2019</b></font> <font color="black">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/1909.11574"><font color='orange'>paper</font></a></i> accepted to ICCV 2019 on Deep Metric Learning with Interclass Properties.</font></br></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>May 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>NeurIPS 2019</i> on Deep Metric Learning.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Apr 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>MICCAI 2019</i> on Image Segmentation.</font></li></br>
+//
+//     <li><i class="fas fa-arrow-trend-up" style="font-size:18px; color:black"></i>&nbsp;&nbsp; <font color="#025CBC">
+//     <b>Mar 2019</b></font> <font color="black">&nbsp;&nbsp; One paper submitted to <i>ICCV 2019</i> on Deep Metric Learning.</font></li></br>
+//   </div>
+//   </div>
+// </div>

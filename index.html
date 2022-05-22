@@ -166,23 +166,24 @@
 <link rel="stylesheet" href="./assets/index.css">
 
 
+
 <body data-gr-c-s-loaded="true">
 <div id="loading" class="" style="display: none;">
 <div id="spinner"></div>
 </div>
 
 
-<div id="profile" style="z-index:91; background: linear-gradient(270deg,rgba(15,15,15, 0.7),rgba(15,15,15, 0.7) 100%),
+<div id="profile" style="z-index:91; background: linear-gradient(270deg,rgba(15,15,15, 0.3),rgba(15,15,15, 0.7) 100%),
 url('assets/backimg_2.jpg'); background-size: auto 100%; background-position: 60% 100%; box-shadow: 0px 0px 50px 0px #000">
 <div id="about">
-<img class="prof_mini_img" src="assets/profile.jpg">
-<div id="username"><span style="display:block;"><span style="text-align: center">Karsten Roth</span></span>
+<img class="prof_mini_img" src="assets/images/profile_square.jpg" style='border-radius: 50%; border-width:2px'>
+<div id="username"><span style="display:block;"><span style="text-align: center"><font style="font-size: 30px">Karsten Roth</font></span></span>
 </div>
-<a href="assets/MainCV_KarstenRoth.pdf"><span style="text-align: center">Resume (pdf)</span></a>
-<span style="display:block; text-align: center"><i class="fab fa-twitter fa-fw"></i> &nbsp; <a href="https://twitter.com/confusezius">@confusezius</a></span>
-<span style="display:block; text-align: center"><i class="fab fa-linkedin fa-fw"></i> &nbsp; <a href="https://www.linkedin.com/in/karsten-roth">@karsten-roth</a></span>
-<span style="display:block; text-align: center"><i class="fab fa-github fa-fw"></i> <a href="http://github.com/confusezius">&nbsp; @Confusezius</a></span>
-<span style="display:block; text-align: center"><i class="fab fa-google fa-fw"></i> <a href="https://scholar.google.com/citations?user=93ZjIs0AAAAJ">&nbsp; Karsten Roth</a></span>
+<a href="assets/MainCV_KarstenRoth.pdf"><span style="text-align: center"><font style="font-size: 26px"> CV &nbsp<i class="fa-solid fa-file-arrow-down" style='font-size: 22px'></i> </font></span></a>
+<span style="display:block; text-align: center"><i class="fab fa-twitter fa-fw" style='font-size: 20px'></i> &nbsp; <a href="https://twitter.com/confusezius"><font style="font-size: 22px">@confusezius</font></a></span>
+<span style="display:block; text-align: center"><i class="fab fa-linkedin fa-fw" style='font-size: 20px'></i> &nbsp; <a href="https://www.linkedin.com/in/karsten-roth"><font style="font-size: 22px">@karsten-roth</font></a></span>
+<span style="display:block; text-align: center"><i class="fab fa-github fa-fw" style='font-size: 20px'></i> <a href="http://github.com/confusezius">&nbsp; <font style="font-size: 22px">@Confusezius</font></a></span>
+<span style="display:block; text-align: center"><i class="fab fa-google fa-fw" style='font-size: 20px'></i> <a href="https://scholar.google.com/citations?user=93ZjIs0AAAAJ">&nbsp; <font style="font-size: 22px">Karsten Roth</font></a></span>
 </div>
 <span class="app_arrow" style="text-align: center; padding-top:50px"><i class="fas fa-angle-double-down" style='font-size:40px'></i></span>
 </div>
@@ -191,313 +192,501 @@ url('assets/backimg_2.jpg'); background-size: auto 100%; background-position: 60
 
 
 
-<div id="display" data-toggle="collapse" data-target="#tldr_div" onclick="$('#logo_tldr').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(35,35,40,1); display:block; height:50px; margin-bottom:30px; margin-top:-30px; margin-left:-5%">
-<h1 id="tldr" style='font-size:35px'><font color="white"><i id="logo_tldr" class="fas fa-angle-up"></i>&nbsp About me</font></h1>
+<div id="display" data-toggle="collapse" data-target="#tldr_div" onclick="$('#logo_tldr').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(240,240,240,1); display:block; height:50px; margin-bottom:30px; margin-top:-20px">
+<h1 id="tldr" style='font-size:30px'><font color="black"><i id="logo_tldr" class="fas fa-angle-up"></i>&nbsp About me <font style='color: gray; font-size: 13px'>(click to collapse)</font></font></h1>
 </div>
 <div id="tldr_div" class="collapse in">
-  <div id="display" style="background:rgba(15,15,15,1);display:block; overflow:auto; height:430px; border:1px solid white">
-  <div style='margin-left:-9%; font-size:15px'>
-    <b style='font-size:18px'><font color="lightblue">Occupation.</font></b>&nbsp;&nbsp;&nbsp; I am currently an <a href='https://imprs.is.mpg.de/'><font color='lightpink'>IMPRS-IS</font></a> & <a href='https://ellis.eu/'><font color='lightpink'>ELLIS</font></a> PhD Student at the University of Tuebingen, co-supervised by
-    <a href='https://scholar.google.com/citations?user=jQl9RtkAAAAJ'><font color='white'><i>Zeynep Akata</i></font></a> (University of Tuebingen) and
-        <a href='https://scholar.google.com/citations?user=NkzyCvUAAAAJ'><font color='white'><i>Oriol Vinyals</i></font></a> (Google Deepmind, London).</br>
+  <div id="display" style="background:rgba(240,240,240,1);display:block; overflow:auto; height:10%; border:1px solid black">
+  <div style='margin-left:-1%; font-size:16px'>
+    <font color="black">I am currently an <b><a href='https://imprs.is.mpg.de/'>
+    <font color='orange'>IMPRS-IS</font></a> & <a href='https://ellis.eu/'><font color='orange'>ELLIS</font></a></b> PhD Student at the Cluster for Excellence in Machine Learning at the University of Tuebingen <a href="https://tuebingen.ai/"><i class="fa-solid fa-location-dot" style="font-size:18px; color: red"></i></a>, co-supervised by
+    <a href='https://scholar.google.com/citations?user=jQl9RtkAAAAJ'><font color='orange'><b><i>Zeynep Akata</i></b></font></a> (University of Tuebingen) and
+        <a href='https://scholar.google.com/citations?user=NkzyCvUAAAAJ'><font color='orange'><b><i>Oriol Vinyals</i></b></font></a> (Google Deepmind, London).</br></font>
     </br>
-    <font color="white"><b style='font-size:18px'><font color="lightblue">Research.</font></b></font>&nbsp;&nbsp;&nbsp; My current research focuses on effective multimodal, contrastive and metric representation learning, with a focus of developing system capable of strong Out-of-Distribution generalization.
+    <font color="black">My current research focuses on effective generalization in self-supervised, contrastive and metric representation learning, with a focus of developing system capable of strong Out-of-Distribution generalization.</font>
     </br></br>
-    <b style='font-size:18px'><font color="lightblue">Previous.</font></b>&nbsp;&nbsp;&nbsp; I was lucky enough to have worked with amazing people at <b>Amazon AWS Tuebingen</b> (<a href='https://scholar.google.com/citations?user=mlSE-YwAAAAJ'><font color='white'><i>Peter Gehler</i></font></a>,
-    <a href='https://scholar.google.com/citations?user=0VAe-TQAAAAJ'><font color='white'><i>Thomas Brox</i></font></a>),
-    <b>Vector Institute Toronto</b> (<a href='https://scholar.google.com/citations?user=9RyeFYwAAAAJ'><font color='white'><i>Marzyeh Ghassemi</i></font></a>)
-    and <b>MILA Montreal</b> (<a href='https://scholar.google.com/citations?user=slS0dvUAAAAJ'><font color='white'><i>Joseph Paul Cohen</i></font></a>, <a href='https://scholar.google.com/citations?user=kukA0LcAAAAJ'><font color='white'><i>Yoshua Bengio</i></font></a>).
+    <font color="black">I am currently also a research scientist intern at <b>Meta AI Paris</b> with <a href='https://ai.facebook.com/people/diane-bouchacourt'><i>Diane Bouchacourt</i></a>, <a href="https://ai.facebook.com/people/pascal-vincent/"><i>Pascal Vincent</i></a> & <a href="https://markibrahim.me/"><i>Mark Ibrahim</i></a>.
+    Previously, I was a research intern at <b>Amazon AWS</b> [<a href='https://scholar.google.com/citations?user=mlSE-YwAAAAJ'><i>Peter Gehler</i></a>,
+    <a href='https://scholar.google.com/citations?user=0VAe-TQAAAAJ'><i>Thomas Brox</i></a>],
+    <b>Vector</b> [<a href='https://scholar.google.com/citations?user=9RyeFYwAAAAJ'><i>Marzyeh Ghassemi</i></a>
+    and <b>MILA</b> [<a href='https://scholar.google.com/citations?user=slS0dvUAAAAJ'><i>Joseph Paul Cohen</i></a>, <a href='https://scholar.google.com/citations?user=kukA0LcAAAAJ'><i>Yoshua Bengio</i></a>].</font>
     </br></br>
-    Pre-ML I completed my Master and Bachelor of Physics at <b>Heidelberg University</b> with initial focus on Medical and Solid State Physics.
+    <font color="black">Pre-ML I completed my Master and Bachelor of Physics at <b>Heidelberg University</b> with initial focus on Medical and Solid State Physics.</font>
     </br>
     </br>
-    <b style='font-size:16px'><font color="lightblue">Reviewer Duties</font></b>&nbsp;&nbsp;&nbsp; for MICCAI, IJCAI, MIDL, AutoML, wNeurIPS, CVPR, ECCV
+    <b style='font-size:16px'><font color="black">Reviewed at </font></b><font color="black"> MICCAI, IJCAI, MIDL, AutoML, wNeurIPS, CVIU, CVPR, ECCV. <br><b>Outstanding reviewer</b> CVPR 2022.</font>
     </div>
   </div>
 </div>
 
 
-<div id="display" data-toggle="collapse" data-target="#news_div" onclick="$('#logo_news').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(35,35,40,1); display:block; height:50px; border-top:1px solid white; margin-bottom:40px; margin-left:-5%">
-<h1 id="updates" style='font-size:35px'><font color="white"><i id="logo_news" class="fas fa-angle-up"></i>&nbsp News</font></h1>
+
+<div id="display" data-toggle="collapse" data-target="#papers_div" onclick="$('#logo_papers').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(240,240,240,1); display:block; height:50px; margin-bottom:30px; margin-top:-20px">
+    <h1 id="papers" style='font-size:30px'><font color="black"><i id="logo_papers" class="fas fa-angle-up"></i>&nbsp Selected Papers <font style='color: gray; font-size: 13px'>(click to collapse)</font></font></h1>
 </div>
-<div id="news_div" class="collapse in">
-  <div id="display" style="background: rgba(15,15,15, 1); display:block; overflow:auto; height:500px; border:1px solid white">
-  <div style="margin-left:-13%; font-size:15px'">
-  <ul class="fa-ul">
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; Culmination of a five year
-    <i><a href="https://www.science.org/doi/full/10.1126/sciadv.abk2022?af=R"><font color='pink'>
-    interdisciplinary research project</font></a></i> on stress response in Hep-V cells accepted at Science Advances.</font></li></br>
+<font color="black">
+<div id="papers_div" class="collapse in">
+  <div id="display" style="background:rgba(240,240,240,1);display:block; overflow:auto; height:10%; border:1px solid black">
+    <div style='margin-left:-1%; font-size:15px'>
 
-    <li><i class="fas fa-comments" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2022</font> <font color="white">&nbsp;&nbsp; Invited talk at G-Research on <i>Visual Similarity Learning</i>.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/cvpr2022_lang_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b><font color='red'>(ORAL)</font> Integrating Language Guidance into Vision-based Deep Metric Learning</b></font>
+            <br>
+            <i>
+                We showcase the benefits of re-aligning visual similarity spaces using language semantics,
+                without the need of additional expert supervision and with significant improvements in generalization performance.
+            </i>
+            <br>
+            <b>Karsten Roth</b>, Oriol Vinyals, Zeynep Akata
+            <br>
+            <b><font color="green">CVPR, 2022</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2203.08543">arXiv</a>
+            | <a href="https://github.com/ExplainableML/LanguageGuidance_for_DML">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2022</font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2203.12609"><font color='pink'>paper</font></a></i> on <i>Improving the Fairness of Chest X-ray Classifiers</i> accepted to CHIL 2022.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/cvpr2022_nir_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Non-isotropy Regularization for Proxy-based Deep Metric Learning</b></font>
+            <br>
+            <i>
+                This work showcases the benefits of resolving local structures in proxy-based Deep Metric Learning without sample-to-sample relations.
+                Doing so retains incredibly fast convergence speeds while ensuring strong generalization performance.
+            </i>
+            <br>
+            <b>Karsten Roth</b>, Oriol Vinyals, Zeynep Akata
+            <br>
+            <b><font color="green">CVPR, 2022</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2203.08547">arXiv</a>
+            | <a href="https://github.com/ExplainableML/NonIsotropicProxyDML">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-tower-broadcast" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2022</font> <font color="white">&nbsp;&nbsp; Two papers submitted to CVPR workshop on <i>Learning with Limited Labels</i> 2022.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/cvpr2022_pc_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Towards Total Recall in Industrial Anomaly Detection</b></font>
+            <br>
+            <i>
+                We develop PatchCore - an anomaly detection method for visual product inspection, which is scalable, fast, extremely accurate, interpretable and usable without expert knowledge.
+                Using Coreset Memories, PatchCore has retained the state-of-the-art for more than a year now.
+            </i>
+            <br>
+            <b>Karsten Roth</b>, Latha Pemula, Joaquin Zepeda, Bernhard Schoelkopf, Thomas Brox, Peter Gehler
+            <br>
+            <b><font color="green">CVPR, 2022</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2106.08265v2">arXiv</a>
+            | <a href="https://github.com/amazon-research/patchcore-inspection">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-tower-broadcast" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2022</font> <font color="white">&nbsp;&nbsp; One paper submitted to ECCV 2022.</font></li></br>
+        <div class='grid-container'>
+        <div>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/chil2022_thumb.png" width="95%">
+            </a>
+        </div>
+        <div>
+            <font style="font-size:17px"><b>Improving the Fairness of Chest X-ray Classifiers</b></font>
+            <br>
+            <i>
+                Fairness methods for chest x-ray classifier that account for worst-group performance do not outperform simple data balancing,
+                and methods which achieve group fairness do so by worsening performance for all groups.
+            </i>
+            <br>
+            Haoran Zhang, Natalie Dullerud, <b>Karsten Roth</b>, Lauren Oakden-Rayner, Stephen Pfohl, Marzyeh Ghassemi
+            <br>
+            <b><font color="green">CHIL, 2022</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2203.12609">arXiv</a>
+            | <a href="https://proceedings.mlr.press/v174/zhang22a/zhang22a.pdf">proceedings</a>
+            | <a href="https://github.com/mlforhealth/cxr_fairness">code</a>
+            | <a href="https://proceedings.mlr.press/v174/zhang22a.html">bibtex</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08547"><font color='pink'>Paper</font></a></i> on <i>Is Fairness Only Metric Deep? Evaluating and Addressing Subgroup Gaps in Deep Metric Learning</i> accepted at ICLR 2022.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/iclr2022_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Is fairness only metric deep? evaluating and addressing subgroup gaps in deep metric learning</b></font>
+            <br>
+            <i>
+                This work proposes finDML, the fairness in non-balanced DML benchmark to characterize representation fairness.
+                We find bias in DML representations to propagate to common downstream classification tasks, even when training data in the downstream task is re-balanced, and propose a regularizer to tackle this.
+            </i>
+            <br>
+            Natalie Dullerud, <b>Karsten Roth</b>, Kimia Hamidieh, Nicolas Papernot, Marzyeh Ghassemi
+            <br>
+            <b><font color="green">ICLR, 2022</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2203.12748">arXiv</a>
+            | <a href="https://openreview.net/forum?id=js62_xuLDDv">proceedings</a>
+            | <a href="https://openreview.net/forum?id=js62_xuLDDv">bibtex</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="red">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08543"><font color='pink'>Paper</font></a></i> on <i>Integrating Language Guidance for Vision-based Deep Metric Learning</i> accepted as <b><font color="red">oral</font></b> at CVPR 2022.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/science2022_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b> Temporal control of the integrated stress response by a stochastic molecular "switch" </b></font>
+            <br>
+            <i>
+                Five year interdisciplinary project studying and evaluating integrated cellular stress response.
+            </i>
+            <br>
+            Philipp Klein, Stefan M.Kallenberger, Hanna Roth, <b>Karsten Roth</b>, Thi Bach Nga Ly-Hartig, Vera Magg, Janez Aleš, Soheil Rastgou Talemi, Yu Qiang, Steffen Wolf, Olga Oleksiuk, Roma Kurilov, Barbara Di Ventura, Ralf Bartenschlager, Roland Eils, Karl Rohr, Fred A. Hamprecht, Thomas Höfer, Oliver T. Fackler, Georg Stoecklin, Alessia Ruggieri
+            <br>
+            <b><font color="green">Science Advances, 2022</font></b>
+            <br>
+            <a href="https://www.science.org/doi/epdf/10.1126/sciadv.abk2022">Science</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2106.08265"><font color='pink'>Paper</font></a></i> on <i>Towards Total Recall in Industrial Anomaly Detection</i> accepted at CVPR 2022.</font></li></br>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2203.08547"><font color='pink'>Paper</font></a></i> on <i>Non-isotropy Regularization for Deep Metric Learning</i> accepted at CVPR 2022.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/neurips2022_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Characterizing generalization under out-of-distribution shifts in deep metric learning</b></font>
+            <br>
+            <i>
+                This work proposes a new and controllable benchmark for more principled studies of the Out-of-Distribution performance of Deep Metric Learning Models.
+            </i>
+            <br>
+            Timo Milbich*, <b>Karsten Roth*</b>, Samarth Sinha, Ludwig Schmidt, Marzyeh Ghassemi*, Bjoern Ommer*
+            <br>
+            <b><font color="green">NeurIPS, 2021</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2107.09562">arXiv</a>
+            | <a href="https://proceedings.neurips.cc/paper/2021/file/d1f255a373a3cef72e03aa9d980c7eca-Paper.pdf">proceedings</a>
+            | <a href="https://proceedings.neurips.cc/paper/2021/hash/d1f255a373a3cef72e03aa9d980c7eca-Abstract.html">bibtex</a>
+            | <a href="https://github.com/Confusezius/Characterizing_Generalization_in_DeepMetricLearning">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-trophy" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2022</b></font> <font color="white">&nbsp;&nbsp; Three first-author papers accepted at CVPR 2022.</font></li></br>
 
-    <li><i class="fas fa-comments" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Jan 2022</font> <font color="white">&nbsp;&nbsp; Invited talk at Ruhr University Bochum on <i>Out-of-Distribution Generalization</i>.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/icml2021_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Simultaneous Similarity-based Self-Distillation for Deep Metric Learning</b></font>
+            <br>
+            <i>
+                Based on the insight that the dimensionality of metric spaces faciliates regularization, we introduce S2SD to implicitly incorporate high-dimensional rankings into low-dimensional embedding spaces.
+            </i>
+            <br>
+            <b>Karsten Roth</b>, Timo Milbich, Bjoern Ommer, Joseph Paul Cohen, Marzyeh Ghassemi
+            <br>
+            <b><font color="green">ICML, 2021</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2009.08348">arXiv</a>
+            | <a href="http://proceedings.mlr.press/v139/roth21a.html">proceedings</a>
+            | <a href="http://proceedings.mlr.press/v139/roth21a.html">bibtex</a>
+            | <a href="https://github.com/MLforHealth/S2SD">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Nov 2021</font> <font color="white">&nbsp;&nbsp; Four papers submitted to CVPR 2022.</font></li></br>
 
-    <li><i class="fas fa-comments" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Oct 2021</font> <font color="white">&nbsp;&nbsp; Invited talk at Bright Machines on <i>Industrial Anomaly Detection</i>.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/eccv2020_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>DiVA: Diverse Visual Feature Aggregation for Deep Metric Learning</b></font>
+            <br>
+            <i>
+                DiVA introduces a plethora of feature mining extensions including concurrent self-supervised learning with no additional supervision to improve the generalization performance of supervised visual similarity spaces.
+            </i>
+            <br>
+            Timo Milbich*, <b>Karsten Roth*</b>, Homanga Bharadhwaj, Samarth Sinha, Yoshua Bengio, Bjoern Ommer, Joseph Paul Cohen
+            <br>
+            <b><font color="green">ECCV, 2020</font></b>
+            <br>
+            <a href="https://arxiv.org/pdf/2004.13458.pdf">arXiv</a>
+            | <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530579.pdf">proceedings</a>
+            | <a href="https://dl.acm.org/doi/10.1007/978-3-030-58598-3_35">bibtex</a>
+            | <a href="https://github.com/Confusezius/ECCV2020_DiVA_MultiFeature_DML">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Oct 2021</font> <font color="white">&nbsp;&nbsp; One paper submitted to ICLR 2022.</font></li></br>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Oct 2021</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2107.09562v1"><font color='pink'>paper</font></a></i> accepted at NeurIPS 2021 on out-of-distribution Deep Metric Learning.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/icml2020_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Revisiting Training Strategies and Generalization Performance in Deep Metric Learning</b></font>
+            <br>
+            <i>
+                A seminal project that highlights significant performance saturation in Deep Metric Learning research and the reasons, as well as an initial study into structural drivers of generalization in Deep Metric Learning.
+            </i>
+            <br>
+            <b>Karsten Roth*</b>, Timo Milbich*, Samarth Sinha, Prateek Gupta, Bjoern Ommer, Joseph Paul Cohen
+            <br>
+            <b><font color="green">ICML, 2020</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2002.08473">arXiv</a>
+            | <a href="http://proceedings.mlr.press/v119/roth20a/roth20a.pdf">proceedings</a>
+            | <a href="https://proceedings.mlr.press/v119/roth20a.html">bibtex</a>
+            | <a href="https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-comments" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Oct 2021</font> <font color="white">&nbsp;&nbsp; Invited talk at the AIMI Lab @ Stanford University on <i>Revisiting the Status Quo in Deep Metric Learning</i>.</font></li></br>
 
-    <li><i class="fas fa-tower-broadcast" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Jun 2021</font> <font color="white">&nbsp;&nbsp; <i><a href="https://arxiv.org/abs/2106.08265v1"><font color='pink'>Preprint</font></a></i> out on Industrial Anomaly Detection with <i>Amazon AWS</i>.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/cvpr2020_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Pads: Policy-adapted sampling for visual similarity learning</b></font>
+            <br>
+            <i>
+                Using Reinforcement Learning, PADS introduces a tuple mining heuristic that presents the network the right tuples to learn from at the right time.
+            </i>
+            <br>
+            <b>Karsten Roth*</b>, Timo Milbich*, Bjoern Ommer
+            <br>
+            <b><font color="green">CVPR, 2020</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2003.11113">arXiv</a>
+            | <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Roth_PADS_Policy-Adapted_Sampling_for_Visual_Similarity_Learning_CVPR_2020_paper.html">proceedings</a>
+            | <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Roth_PADS_Policy-Adapted_Sampling_for_Visual_Similarity_Learning_CVPR_2020_paper.html">bibtex</a>
+            | <a href="https://github. com/Confusezius/CVPR2020_PADS">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    May 2021</font> <font color="white">&nbsp;&nbsp; Two papers submitted to <i>NeurIPS 2021</i>.</font></li></br>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>May 2021</b></font> <font color="white">&nbsp;&nbsp; One  <i><a href="https://arxiv.org/abs/2009.08348"><font color='pink'>paper</font></a></i> accepted to ICML 2021 on Self-Distillation for Deep Metric Learning.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/cureus2020_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Predicting covid-19 pneumonia severity on chest x-ray with deep learning</b></font>
+            <br>
+            <i>
+                This study presents a severity score model for COVID-19 pneumonia from frontal chest X-ray images.
+            </i>
+            <br>
+            Joseph Paul Cohen, Lan Dao, <b>Karsten Roth</b>, Paul Morrison, Yoshua Bengio, Almas F Abbasi, Beiyi Shen, Hoshmand Kochi Mahsa, Marzyeh Ghassemi, Haifang Li, Tim Duong
+            <br>
+            <b><font color="green">Cureus, 2020</font></b>
+            <br>
+            <a href="https://www.cureus.com/articles/35692-predicting-covid-19-pneumonia-severity-on-chest-x-ray-with-deep-learning">Cureus</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-star" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>May 2021</b></font> <font color="white">&nbsp;&nbsp; Started my PhD as part of ELLIS and the IMPRS-IS co-supervised by Zeynep Akata (University of Tuebingen) and Oriol Vinyals (Deepmind).</font></li></br>
 
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2021</font> <font color="white">&nbsp;&nbsp; Two papers submitted to <i>ICCV 2021</i>.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/melba2020_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Covid-19 image data collection: Prospective predictions are the future</b></font>
+            <br>
+            <i>
+                This was the first chest x-ray image data collection for COVID-19, manually aggregated to provide tools for a first exploratory analysis into COVID-19 prediction from chest x-ray.
+            </i>
+            <br>
+            Joseph Paul Cohen, Paul Morrison, Lan Dao, <b>Karsten Roth</b>, Tim Q Doung, Marzyeh Ghassemi
+            <br>
+            <b><font color="green">MELBA, 2020</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/2006.11988">arXiv</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-check" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2021</font> <font color="white">&nbsp;&nbsp; Completed a successful 5 month research internship at AWS Research Lablet Amazon in Tuebingen.</font></li></br>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Dec 2020</font> <font color="white">&nbsp;&nbsp; Two accepted workshop submissions at NeurIPS 2020 on continual few-shot learning for multilabel medical applications and uniform priors for Meta-learning.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/jerg2020_thumb.jpg" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Diffuse domain method for needle insertion simulations</b></font>
+            <br>
+            <i>
+                We present a new strategy for needle insertion simulations without the necessity of meshing utilizing a diffuse domain approach.
+            </i>
+            <br>
+            Katharina I Jerg, René Phillip Austermühl, <b>Karsten Roth</b>, Jonas Große Sundrup, Guido Kanschat, Jürgen W Hesser, Lisa Wittmayer
+            <br>
+            <b><font color="green">International Journal for Numerical Methods in Biomedical Engineering, 2020</font></b>
+            <br>
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.3377">Wiley</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-star" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Mar 2021</b></font> <font color="white">&nbsp;&nbsp; Started a 5 month research internship at the AWS Research Lablet Amazon in Tuebingen supervised by Peter Gehler and Thomas Brox.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/iccv2019_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>MIC: Mining Interclass Characteristics for Improved Metric Learning</b></font>
+            <br>
+            <i>
+                We extend standard supervised Deep Metric Learning with a intra-class feature mining step that allows the network to explain away feature variances within classes for improved generalization.
+            </i>
+            <br>
+            <b>Karsten Roth*</b>, Biagio Brattoli*, Bjoern Ommer
+            <br>
+            <b><font color="green">ICCV, 2019</font></b>
+            <br>
+            <a href="https://arxiv.org/abs/1909.11574">arXiv</a>
+            | <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Roth_MIC_Mining_Interclass_Characteristics_for_Improved_Metric_Learning_ICCV_2019_paper.html">proceedings</a>
+            | <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Roth_MIC_Mining_Interclass_Characteristics_for_Improved_Metric_Learning_ICCV_2019_paper.html">bibtex</a>
+            | <a href="https://github.com/Confusezius/metric-learning-mining-interclass-characteristics">code</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-tower-broadcast" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Sep. 2021</font> <font color="white">&nbsp;&nbsp; New <i><a href="https://arxiv.org/abs/2009.08348"><font color='pink'>preprint</font></a></i> on Knowledge Distillation in Deep Metric Learning.</font></li></br>
+        <div class='grid-container'>
+        <div class='grid-child purple'>
+            <a href=""><img style="border:1px solid black; box-shadow: 0px 0px 10px 0px #000" src="assets/images/wneur2019_thumb.png" width="95%">
+            </a>
+        </div>
+        <div class='grid-child green'>
+            <font style="font-size:17px"><b>Boosting Liver and Lesion Segmentation from CT Scans by Mask Mining</b></font>
+            <br>
+            <i>
+                We propose a novel boosting procedure to improve liver and lesion segmentation from CT scans for U-Net based models based on an iterative error prediction and refinement setup.
+            </i>
+            <br>
+            <b>Karsten Roth*</b>, Jürgen Hesser, Tomasz Konopczyński
+            <br>
+            <b><font color="green">Medical Imaging Workshop NeurIPS, 2019</font></b>
+            <br>
+            <a href="https://www.tooploox.com/cdn/papers/Boosting-Liver-and-Lesion-Segmentation-from-CT-Scans-by-Mask-Mining.pdf">Paper</a>
+        </div>
+        </div>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Jul 2020</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/2004.05582.pdf"><font color='pink'>paper</font></a></i> accepted to TPAMI on Improved Generalization in Deep Metric Learning.</font></li></br>
 
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Jul 2020</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/2004.13458.pdf"><font color='pink'>paper</font></a></i> accepted to ECCV 2020 on Multi-Feature Deep Metric Learning.</font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Jun 2020</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.3377"><font color='pink'>paper</font></a></i> accepted to International Journal for Numerical Methods in Biomedical Engineering on diffuse domain method for needle insertion simulations.</font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Jun 2020</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2002.08473"><font color='pink'>paper</font></a></i> accepted to ICML 2020 on comparability and generalization in Deep Metric Learning.</font></br></br>
-
-    <li><i class="fas fa-star" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>May 2020</b></font> <font color="white">&nbsp;&nbsp; Started a four month research internship at the Vector Institute under supervision of Marzyeh Ghassemi.</font></li></br>
-
-    <li><i class="fas fa-star" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Apr 2020</b></font> <font color="white">&nbsp;&nbsp; Selected as participant to <font color="white"><b>attend</b></font> the MLSS 2020 in Tuebingen (<i>p < 180/1300</i>)</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2020</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>ECCV 2020</i> on Multi-Feature Deep Metric Learning.</font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Feb 2020</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/2003.11113"><font color='pink'>paper</font></a></i> accepted to CVPR 2020 on Deep Metric Learning and Reinforcement Learning.</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Feb 2020</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>ICML 2020</i> examining driving factors for generalization in Deep Metric Learning. </font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Jan 2020</font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/pdf/1908.05062.pdf"><font color='pink'>paper</font></a></i> accepted to ISBI 2020 on Mask Mining for Liver Lesion Segmentation.</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Nov 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>CVPR 2020</i> on Adaptive Deep Metric Learning.</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Oct 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>TPAMI</i> on Improved Generalization for Deep Metric Learning.</font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Oct 2019</font> <font color="white">&nbsp;&nbsp; One <em><a href="https://arxiv.org/pdf/1908.05062.pdf"><font color='pink'>paper</font></a></em> accepted to the NeurIPS 2019 Med-Neurips Workshop Track on error mining for medical semantic segmentation.</font></li></br>
-
-    <li><i class="fas fa-star" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Sep 2019</b></font> <font color="white">&nbsp;&nbsp; Started a six month research internship at the Montreal Institute for Learning Algorithms (MILA) under supervision of Joseph Paul Cohen and Yoshua Bengio</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Sep 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>Numerical Methods in Biomedical Engineering</i>  on domain methods for needle insertion simulations.</i></font></li></br>
-
-    <li><i class="fas fa-thumbs-up" style="font-size:18px"></i>&nbsp;&nbsp; <font color="lightgreen">
-    <b>Jul 2019</b></font> <font color="white">&nbsp;&nbsp; One <i><a href="https://arxiv.org/abs/1909.11574"><font color='pink'>paper</font></a></i> accepted to ICCV 2019 on Deep Metric Learning with Interclass Properties.</font></br></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    May 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>NeurIPS 2019</i> on Deep Metric Learning.</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Apr 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>MICCAI 2019</i> on Image Segmentation.</font></li></br>
-
-    <li><i class="fas fa-arrow-trend-up" style="font-size:14px"></i>&nbsp;&nbsp; <font color="lightblue">
-    Mar 2019</font> <font color="white">&nbsp;&nbsp; One paper submitted to <i>ICCV 2019</i> on Deep Metric Learning.</font></li></br>
+    </div>
   </div>
-  </div>
 </div>
+</font>
 
 
 
-<div id="display" data-toggle="collapse" data-target="#pub_div" onclick="$('#logo_pub').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(35,35,40,1); display:block; height:50px; border-top:1px solid white; margin-bottom:40px; margin-left:-5%">
-<h1 id="publications" style='font-size:35px'><i id="logo_pub" class="fas fa-angle-down"></i>&nbsp Publications</h1>
+<font color='black'>
+<div id="display" data-toggle="collapse" data-target="#info_div" onclick="$('#logo_info').toggleClass('fas fa-angle-up fas fa-angle-down')" style="background:rgba(240,240,240,1); display:block; height:50px; margin-bottom:30px; margin-top:-20px">
+<h1 id="info" style='font-size:30px'><font color="black"><i id="logo_info" class="fas fa-angle-up"></i>&nbsp Talks, Awards & Schools <font style='color: gray; font-size: 13px'>(click to collapse)</font></font></h1>
 </div>
-<div id="pub_div" class="collapse">
-  <div id="display" style="background: rgba(15,15,15, 1);  display:block; overflow:auto; height:600px; border:1px solid white">
-    <div class="projects" style="position: relative">
+<div id="info_div" class="collapse in">
+  <div id="display" style="background:rgba(240,240,240,1);display:block; overflow:auto; height:10%; border:1px solid black">
+    <div style='margin-left:-1%; font-size:15px'>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/icml2021_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='http://proceedings.mlr.press/v139/roth21a.html'">
-    <div class="section_title">ICML 2021</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Simultaneous Similarity-based Self-Distillatioln for Deep Metric Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;"><font color="lightgreen">Karsten Roth</font>, Timo Milbich, Bjoern Ommer, Joseph Paul Cohen*, Marzyeh Ghassemi*</span>
-    </section>
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-comment" style="color: lightblue"></i> Pioneer AI Center <font color="Tomato">[May 2022]</font></b></font>
+            <br>
+            <i>
+                Presentation of CVPR 2022 publications on language guidance and normalizing flows for deep metric learning.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Copenhagen, Danemark</font></b>
+        </div>
+        <br>
 
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-award" style='color: orange'></i> EMVA Young Professional Award <font color="Tomato">[May 2022]</font></b></font>
+            <br>
+            <i>
+                Recipient of the Young Professional Award 2022 endowed by the European Machine Vision Association to honor the outstanding and innovative work of a student or a young professional in the field of machine vision or image processing.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Brussels, Belgium</font></b>
+        </div>
+        <br>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/eccv2020_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/2004.13458'">
-    <div class="section_title">ECCV 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">DiVA: Diverse Visual Feature Aggregation for Deep Metric Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Timo Milbich*, <font color="lightgreen">Karsten Roth</font>*, Homanga Bharadhwaj, Samarth Sinha, Yoshua Bengio, Bjoern Ommer, Joseph P. Cohen</span>
-    </section>
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-comment" style="color: lightblue"></i> G-Research <font color="Tomato">[March 2022]</font></b></font>
+            <br>
+            <i>
+                Introduction to Deep Metric Learning and presentation of interesting research directions in this field.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Remote</font></b>
+        </div>
+        <br>
 
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-comment" style="color: lightblue"></i> Ruhr University Bochum <font color="Tomato">[Jan 2022]</font></b></font>
+            <br>
+            <i>
+                On Out-of-Distribution Generalization in zero-shot Deep Metric Learning.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Remote</font></b>
+        </div>
+        <br>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/tpami2020_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://ieeexplore.ieee.org/abstract/document/9141449'">
-    <div class="section_title">TPAMI 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Sharing Matters for Generalization in Deep Metric Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Timo Milbich*, <font color="lightgreen">Karsten Roth</font>*, Biagio Brattoli, Bjoern Ommer</span>
-    </section>
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-comment" style="color: lightblue"></i> Bright Machines <font color="Tomato">[Oct 2021]</font></b></font>
+            <br>
+            <i>
+                Autonomous Industrial Anomaly Detection using PatchCore.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Remote</font></b>
+        </div>
+        <br>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/icml2020_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/2002.08473'">
-    <div class="section_title">ICML 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Revisiting Training Strategies and Generalization Performance in Deep Metric Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;"><font color="lightgreen">Karsten Roth</font>*, Timo Milbich*, Samarth Sinha, Prateek Gupta, Bjoern Ommer, Joseph P. Cohen</span>
-    </section>
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-comment" style="color: lightblue"></i> Chaudhari Group, Stanford University <font color="Tomato">[Jul 2021]</font></b></font>
+            <br>
+            <i>
+                Addressing the shortcomings in Deep Metric Learning research.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Remote</font></b>
+        </div>
+        <br>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/cvpr2020_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/2003.11113'">
-    <div class="section_title">CVPR 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">PADS: Policy-Adapted Sampling for Visual Similarity Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;"><font color="lightgreen">Karsten Roth</font>*, Timo Milbich*, Bjoern Ommer</span>
-    </section>
+        <div class='grid-child green'>
+            <font style="font-size:18px"><b><i class="fa-solid fa-school" style="color: Sienna"></i> MLSS Tuebingen <font color="Tomato">[Jun/Jul 2020]</font></b></font>
+            <br>
+            <i>
+                Selected as participant to the Machine Learning Summer School in Tuebingen, Germany.
+            </i>
+            <br>
+            <b><font color="DarkCyan">Remote</font></b>
+        </div>
+        <br>
 
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/ijbe20_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.3377'">
-    <div class="section_title">IJBE 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Diffuse Domain Method for Needle Insertion Simulation</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Katharina I. Jerg, René Phillip Austermühl, <font color="lightgreen">Karsten Roth</font>, Jonas Große Sundrup, Guido Kanschat, Jürgen W. Hesser, Lisa Wittmayer</span>
-    </section>
-
-
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/covid_transfer_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/2005.11856'">
-    <div class="section_title">CUREUS 2020</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Predicting COVID-19 Pneumonia Severity on Chest X-ray with Deep Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Joseph Paul Cohen, Lan Dao, Paul Morrison, <font color="lightgreen">Karsten Roth</font>, Yoshua Bengio, Beiyi Shen, Almas Abbasi, Mahsa Hoshmand-Kochi, Marzyeh Ghassemi, Haifang Li, Tim Q Duong</span>
-    </section>
-
-
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/iccv2019_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/1909.11574'">
-    <div class="section_title">ICCV 2019</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">MIC: Mining Interclass Characteristics for Improved Metric Learning</font>
-    </span>
-    </div>
-    <span style="display:inline-block;"><font color="lightgreen">Karsten Roth</font>*, Biagio Brattoli*, Bjoern Ommer</span>
-    </section>
-
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/lits_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/1901.04056'">
-    <div class="section_title">MICCAI 2017</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">The Liver Tumor Segmentation Benchmark (LiTS)</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Patrick Bilic, ..., <font color="lightgreen">Karsten Roth</font>, ..., Bjoern H. Menze</span>
-    </section>
-
-    <section style="background: linear-gradient(180deg,rgba(20, 20, 20, 0.8),rgba(20, 20, 20, 0.8) 100%),
-    url('assets/images/physics_thumb.png'); background-size: auto 100%; background-position: 60% 100%;
-    background-repeat: repeat;" onclick="window.location.href='https://arxiv.org/abs/1409.1696'">
-    <div class="section_title">Phys. A.R. 2014</div>
-    <div class="about_section">
-    <span style="display:block;">
-    <font color="lightblue">Efficient preparation and detection of microwave dressed-state qubits and qutrits with trapped ions</font>
-    </span>
-    </div>
-    <span style="display:inline-block;">Joe Randall, ..., <font color="lightgreen">Karsten Roth</font>, Winfried Hensinger</span>
-    </section>
-
-
-    </div>
-  </div>
 </div>
+</div>
+</div>
+</font>
+
+
 
 
 
